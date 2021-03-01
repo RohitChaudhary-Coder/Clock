@@ -12,7 +12,6 @@ function setDateTime(){
 function getDateTime() {
     let date = new Date();
     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
     //setting time variables
     let seconds = date.getSeconds();
     if(seconds < 10){
